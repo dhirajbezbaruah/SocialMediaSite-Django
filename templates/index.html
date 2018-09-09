@@ -1,0 +1,23 @@
+{% extends "base.html" %} {% block content %} {% load staticfiles %}
+<link rel="stylesheet" href="{% static 'simplesocial/css/master.css'%}">
+<style>
+    .im {
+        position: relative;
+        height: 500px;
+        width: 1000px;
+    }
+</style>
+
+
+<div class="index">
+    <marquee behavior="scroll" direction="left">
+        <h1>Welcome to FriendsBook ❤ A simple social networking clone.</h1>
+    </marquee>
+
+
+    <h3>Go Ahead, Login And Make Some New Friends</h3>
+    <img class="im" src="{%static 'images/fr.jpg' %}" alt="didin't show">
+</div>
+
+
+{% endblock %}
